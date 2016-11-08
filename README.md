@@ -1,6 +1,6 @@
-# Read More Button
+# Read More Text
 
-JavaScript module for adding a read more button to text. Supports multiple read more buttons on the same page. Built with accessibility in mind, works on screen readers and degrades gracefully if JavaScript is turned off.
+JavaScript module for adding a read more link to text. Supports multiple read more links on the same page. Built with accessibility in mind, works on screen readers and degrades gracefully if JavaScript is turned off.
 
 ## Instructions
 
