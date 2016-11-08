@@ -12,7 +12,7 @@ var readMore = new ReadMore('#more')
 
 ### Customisable options
 ``` js
-var readMoreButton = new ReadMore('#more', {
+var readMore = new ReadMore('#more', {
 	openText: 'Read more...', // Opening button text
 	closeText: 'Show less...', // Closing button text
 	speed: '1' // Transition speed in seconds
