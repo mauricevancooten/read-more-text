@@ -22,20 +22,20 @@ var readMore = new ReadMore('#more', {
 ### Browser Usage
 
 1. Add Markup
-``` html
-<div id="more">
-	<!-- Hidden text -->
-</div>
-```
+	``` html
+	<div id="more">
+		<!-- Hidden text -->
+	</div>
+	```	
 
 2. Link JavaScript and trigger script 
-``` html
-<!-- Put this right before the </body> closing tag -->
-<script src="read-more-text.js"></script>
-<script>
-	var readMore = new ReadMore('#more')
-</script>	
-```	
+	``` html
+	<!-- Put this right before the </body> closing tag -->
+	<script src="read-more-text.js"></script>
+	<script>
+		var readMore = new ReadMore('#more')
+	</script>	
+	```	
 
 ## Licence
 
