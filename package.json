@@ -1,0 +1,29 @@
+{
+  "name": "read-more-text",
+  "version": "1.0.0",
+  "description": "Add a read more link to text.",
+  "main": "read-more-text.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricevancooten/read-more-text.git"
+  },
+  "keywords": [
+    "read",
+    "more",
+    "link",
+    "text",
+    "javascript"
+  ],
+  "author": "Maurice van Cooten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauricevancooten/read-more-text/issues"
+  },
+  "homepage": "https://github.com/mauricevancooten/read-more-text#readme"
+}
