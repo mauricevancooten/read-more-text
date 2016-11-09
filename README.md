@@ -13,8 +13,8 @@ var readMore = new ReadMore('#more')
 ### Customisable options
 ``` js
 var readMore = new ReadMore('#more', {
-	openText: 'Read more...', // Opening button text
-	closeText: 'Show less...', // Closing button text
+	openText: 'Read more...', // Opening link text
+	closeText: 'Show less...', // Closing link text
 	speed: '1' // Transition speed in seconds
 })
 ```
