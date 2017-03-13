@@ -12,7 +12,7 @@
     root.ReadMore = factory();
   }
 }(this, function() {
-
+'use strict'
   function ReadMore(el, options) {
     var link, moreText, height
     link = document.createElement('a'),
@@ -40,9 +40,8 @@
     moreText.parentNode.insertBefore(link, moreText.nextSibling);
 
     link = document.querySelectorAll('.show-more')
-
-    link.forEach(function(el) {
-      el.addEventListener('click', function(e) {
+    for (var i = 0; i < link.length; i++) {
+      link[i].addEventListener('click', function(e) {
         e.preventDefault()
         if (this.previousSibling.clientHeight == 0) {
           this.innerHTML = options.closeText
@@ -53,7 +52,7 @@
           this.previousSibling.style.maxHeight = 0
         }
       })
-    })
+    }
 
   }
 
