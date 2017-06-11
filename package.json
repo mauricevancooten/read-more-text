@@ -1,6 +1,6 @@
 {
   "name": "read-more-text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add a read more link to text.",
   "main": "read-more-text.js",
   "directories": {
