@@ -15,12 +15,12 @@
 'use strict'
   function ReadMore(el, options) {
     var link, moreText, height
-    link = document.createElement('a'),
-      moreText = document.querySelector(el),
-      height = moreText.clientHeight
+    link = document.createElement('a')
+    moreText = document.querySelector(el)
 
-    moreText.style.maxHeight = 0
-    moreText.style.overflow = 'hidden'
+    moreText.style.cssText = 'max-height:0; overflow:hidden; border:1px solid transparent;'
+
+    height = moreText.scrollHeight
 
     this.options = {
       openText: 'Read more...',
